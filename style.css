@@ -1,13 +1,35 @@
-html{
-    background-color:slategray;
+.html{
+    background-image: url(texture.png);
 }
-table{
-    color:beige;
-    font-size:30px;
+.banner{
+    height:300px;
+    background-image: url(banner.png);
+    background-position: center center;
+     background-size: 101%;
+  background-repeat: no-repeat;
+    
+    
+}
+.btn{
+    border-color:white;
+}
+.btn-twitch{
+    background-color:#6441A5;
+    border-color:white;
 }
 
-h1{
-    color:beige;
-    text-align:center;
-    font-size:100px; 
+.btn:hover,.btn:focus{
+    background-color:transparent; 
+    border-color:white;
+    
 }
+.navbar{
+    background-image: url(texture.png);
+    border-radius:0;
+    
+}
+
+.navlogo{
+    font-size:20px;
+}
+
